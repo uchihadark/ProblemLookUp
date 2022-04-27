@@ -1,0 +1,255 @@
+.head {
+  margin-top: 10px;
+  background-color: #d8d6d5;
+}
+
+.head h2 {
+  color: #0c225e;
+  font-size: 35px;
+}
+
+/* nav-bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* nav-bar ends */
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  /* background: rgb(6, 99, 218);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 99, 218, 1) 6%,
+    rgba(42, 140, 177, 1) 40%,
+    rgba(0, 255, 201, 1) 100%
+  ); */
+  background: #C0C0C0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-x: hidden;
+}
+/* login section  */
+.login-section{
+  width:350px;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
+}
+
+.login-section label{
+  font-size: 18px;
+  margin:10px;
+}
+
+.login-section input{
+  border:2px solid #000;
+  padding:5px 10px;
+  width:200px;
+  border-radius:20px;
+  font-size:16px;
+  text-align: center;
+  color:#000;
+  margin:20px;
+}
+
+button{
+  background:rgb(36, 36, 36);
+  color:#fff;
+  border:2px solid rgb(168, 164, 164);
+  font-size:16px;
+  padding:10px 15px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#0e0d0d;
+  color:#fff;
+}
+
+/* login section end */
+
+
+h1 {
+  font-size: 72px;
+  margin: 15px;
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+
+}
+
+p {
+  display: inline;
+}
+
+.handleblock {
+  margin: 1em;
+}
+
+.block {
+  margin-top: 20px;
+  /*display: none;*/
+}
+
+.recent {
+  height: 100%;
+}
+
+#display_block {
+  display: none;
+}
+
+.accepted {
+  color: green;
+}
+
+.failed {
+  color: red;
+}
+
+.accepted,
+.failed,
+.notattempted {
+  font-size: 10px;
+}
+
+tr {
+  height: 10px;
+}
+
+.recommend {
+  font-size: 20px;
+}
+
+#alert_message {
+  display: none;
+  color: red;
+}
+
+.recommendations {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.mn-cn {
+    /* background: rgb(6, 99, 218);
+    background: linear-gradient(
+      90deg,
+      rgba(6, 99, 218, 1) 6%,
+      rgba(42, 140, 177, 1) 40%,
+      rgba(0, 255, 201, 1) 100%
+    ); */
+  background: #C0C0C0;
+
+}
+
+/*footer*/
+.footer{
+  background:#191919;
+  text-align: center;
+  padding:10px;
+  font-size:18px;
+  width:100%;
+  /* position:sticky; */
+}
+
+.footer.before{
+  position: static;
+  bottom:0;
+  z-index:1;
+}
+
+.contact-links{
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+  align-items: center;
+}
+
+atag{
+  text-decoration: none;
+  margin-right:10px;
+}
+
+i{
+  font-size: 24px;
+}
+
+/*footer end*/
+
+
+/* responsive  */
+
+@media only screen and (max-width:600px) {
+  h1{
+      font-size:3.5em;
+  }
+
+  h3{
+      font-size:1em;
+  }
+
+  input{
+      height:15px;
+      width:15px;
+      margin-right:5px;
+      position: relative;
+      top:2.5px;
+  }
+  .ratings-div,.tags-div{
+      margin:10px auto;
+      display: flex;
+      flex-direction: column;
+  
+  }
+  .ratings-tab,.tags-tab{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+  }
+  
+  .ratings-tab .check,.tags-tab .check{
+      margin:10px;
+      margin-left:0;
+  }
+  
+  button{
+      background:rgb(36, 36, 36);
+      color:#fff;
+      border:2px solid rgb(168, 164, 164);
+      font-size:16px;
+      padding:10px 15px;
+      border-radius:10px;
+      cursor:pointer;
+      margin:10px;
+  }
+  button:hover{
+      background:#0e0d0d;
+      color:#fff;
+  }
+}
