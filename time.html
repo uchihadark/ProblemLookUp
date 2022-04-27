@@ -1,190 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="
+    ProblemLookUp/css/style.css"
+    />
     <title>ProblemLookUp</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <ul>
-        <li><a href="./index.html">Analytics</a></li>
-        <li><a href="./time.html">Time Based Practice</a></li>
-        <li><a href="#">Github</a></li>
+      <li><a href="./index.html">Analytics</a></li>
+      <li><a href="./time.html">Time Based Practice</a></li>
+      <li><a href="#">Github</a></li>
     </ul>
     <h1>ProblemLookUp</h1>
     <!-- Login Section -->
 
     <div class="login-section">
-        <label>Enter Codeforces Username to start:</label>
-        <input type="text" name="" id="uname">
-        <button id="login">Enter</button>
+      <label>Enter Codeforces Username to start:</label>
+      <input type="text" name="" id="uname" />
+      <button id="login">Enter</button>
     </div>
 
     <!-- Problems Section -->
 
     <div class="container">
-        <div class="section">
+      <div class="section">
+        <!-- Ratings Section -->
 
-            <!-- Ratings Section -->
-
-            <div class="ratings-div">
-                <h3>Select Rating:</h3>
-                <div class="ratings-tab">
-                    <div class="check"><input type="checkbox" name="800" id="rating">800</div>
-                    <div class="check"><input type="checkbox" name="900" id="rating">900</div>
-                    <div class="check"><input type="checkbox" name="1000" id="rating">1000</div>
-                    <div class="check"><input type="checkbox" name="1100" id="rating">1100</div>
-                    <div class="check"><input type="checkbox" name="1200" id="rating">1200</div>
-                    <div class="check"><input type="checkbox" name="1300" id="rating">1300</div>
-                    <div class="check"><input type="checkbox" name="1400" id="rating">1400</div>
-                    <div class="check"><input type="checkbox" name="1500" id="rating">1500</div>
-                    <div class="check"><input type="checkbox" name="1600" id="rating">1600</div>
-                    <div class="check"><input type="checkbox" name="1700" id="rating">1700</div>
-                    <div class="check"><input type="checkbox" name="1800" id="rating">1800</div>
-                    <div class="check"><input type="checkbox" name="1900" id="rating">1900</div>
-                    <div class="check"><input type="checkbox" name="2000" id="rating">2000</div>
-                    <div class="check"><input type="checkbox" name="2100" id="rating">2100</div>
-                    <div class="check"><input type="checkbox" name="2200" id="rating">2200</div>
-                    <div class="check"><input type="checkbox" name="2300" id="rating">2300</div>
-                    <div class="check"><input type="checkbox" name="2400" id="rating">2400</div>
-                    <div class="check"><input type="checkbox" name="2500" id="rating">2500</div>
-                    <div class="check"><input type="checkbox" name="2600" id="rating">2600</div>
-                    <div class="check"><input type="checkbox" name="2700" id="rating">2700</div>
-                    <div class="check"><input type="checkbox" name="2800" id="rating">2800</div>
-                    <div class="check"><input type="checkbox" name="2900" id="rating">2900</div>
-                    <div class="check"><input type="checkbox" name="3000" id="rating">3000</div>
-                    <div class="check"><input type="checkbox" name="3100" id="rating">3100</div>
-                    <div class="check"><input type="checkbox" name="3200" id="rating">3200</div>
-                    <div class="check"><input type="checkbox" name="3300" id="rating">3300</div>
-                    <div class="check"><input type="checkbox" name="3400" id="rating">3400</div>
-                    <div class="check"><input type="checkbox" name="3500" id="rating">3500</div>
-                </div>
+        <div class="ratings-div">
+          <h3>Select Rating:</h3>
+          <div class="ratings-tab">
+            <div class="check">
+              <input type="checkbox" name="800" id="rating" />800
             </div>
-
-            <!-- Tags Section -->
-
-            <div class="tags-div">
-                <h3>Select Tags:</h3>
-                <div class="tags-tab">
-                    <div class="check"><input type="checkbox" name="2-sat" id="tags">2-sat</div>
-                    <div class="check"><input type="checkbox" name="binary search" id="tags">binary search</div>
-                    <div class="check"><input type="checkbox" name="bitmasks" id="tags">bitmasks</div>
-                    <div class="check"><input type="checkbox" name="brute force" id="tags">brute force</div>
-                    <div class="check"><input type="checkbox" name="chinese remainder theorem" id="tags">chinese remainder theorem</div>
-                    <div class="check"><input type="checkbox" name="combinatorics" id="tags">combinatorics</div>
-                    <div class="check"><input type="checkbox" name="data structures" id="tags">data structures</div>
-                    <div class="check"><input type="checkbox" name="dfs and similar" id="tags">dfs and similar</div>
-                    <div class="check"><input type="checkbox" name="divide and conquer" id="tags">divide and conquer</div>
-                    <div class="check"><input type="checkbox" name="dp" id="tags">dp</div>
-                    <div class="check"><input type="checkbox" name="dsu" id="tags">dsu</div>
-                    <div class="check"><input type="checkbox" name="expression parsing" id="tags">expression parsing</div>
-                    <div class="check"><input type="checkbox" name="fft" id="tags">fft</div>
-                    <div class="check"><input type="checkbox" name="flows" id="tags">flows</div>
-                    <div class="check"><input type="checkbox" name="games" id="tags">games</div>
-                    <div class="check"><input type="checkbox" name="geometry" id="tags">geometry</div>
-                    <div class="check"><input type="checkbox" name="graph matchings" id="tags">graph matchings</div>
-                    <div class="check"><input type="checkbox" name="graphs" id="tags">graphs</div>
-                    <div class="check"><input type="checkbox" name="greedy" id="tags">greedy</div>
-                    <div class="check"><input type="checkbox" name="hashing" id="tags">hashing</div>
-                    <div class="check"><input type="checkbox" name="implementation" id="tags">implementation</div>
-                    <div class="check"><input type="checkbox" name="interactive" id="tags">interactive</div>
-                    <div class="check"><input type="checkbox" name="math" id="tags">math</div>
-                    <div class="check"><input type="checkbox" name="matrices" id="tags">matrices</div>
-                    <div class="check"><input type="checkbox" name="meet-in-the-middle" id="tags">meet-in-the-middle</div>
-                    <div class="check"><input type="checkbox" name="number theory" id="tags">number theory</div>
-                    <div class="check"><input type="checkbox" name="probabilities" id="tags">probabilities</div>
-                    <div class="check"><input type="checkbox" name="schedules" id="tags">schedules</div>
-                    <div class="check"><input type="checkbox" name="shortest paths" id="tags">shortest paths</div>
-                    <div class="check"><input type="checkbox" name="sortings" id="tags">sortings</div>
-                    <div class="check"><input type="checkbox" name="string suffix structures" id="tags">string suffix structures</div>
-                    <div class="check"><input type="checkbox" name="strings" id="tags">strings</div>
-                    <div class="check"><input type="checkbox" name="ternary search" id="tags">ternary search</div>
-                    <div class="check"><input type="checkbox" name="trees" id="tags">trees</div>
-                    <div class="check"><input type="checkbox" name="two pointers" id="tags">two pointers</div>
-                </div>
+            <div class="check">
+              <input type="checkbox" name="900" id="rating" />900
             </div>
-
-            <!-- Timer Section -->
-
-            <div class="timer">
-                <h3>Select Time:</h3>
-                <div class="timer-div">
-                    <div class="timer-form">
-                        <input type="text" name="hours" id="hour" value=0>
-                        <label for="hour">hours</label>
-                    </div>
-                    <div class="timer-form">
-                        <input type="text" name="minutes" id="minute" value=0>
-                        <label for="minute">minutes</label>
-                    </div>
-                    <div class="timer-form">
-                        <input type="text" name="seconds" id="second" value=0>
-                        <label for="second">seconds</label>
-                    </div>
-                </div>
-            </div>            
+            <div class="check">
+              <input type="checkbox" name="1000" id="rating" />1000
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1100" id="rating" />1100
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1200" id="rating" />1200
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1300" id="rating" />1300
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1400" id="rating" />1400
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1500" id="rating" />1500
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1600" id="rating" />1600
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1700" id="rating" />1700
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1800" id="rating" />1800
+            </div>
+            <div class="check">
+              <input type="checkbox" name="1900" id="rating" />1900
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2000" id="rating" />2000
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2100" id="rating" />2100
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2200" id="rating" />2200
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2300" id="rating" />2300
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2400" id="rating" />2400
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2500" id="rating" />2500
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2600" id="rating" />2600
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2700" id="rating" />2700
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2800" id="rating" />2800
+            </div>
+            <div class="check">
+              <input type="checkbox" name="2900" id="rating" />2900
+            </div>
+            <div class="check">
+              <input type="checkbox" name="3000" id="rating" />3000
+            </div>
+            <div class="check">
+              <input type="checkbox" name="3100" id="rating" />3100
+            </div>
+            <div class="check">
+              <input type="checkbox" name="3200" id="rating" />3200
+            </div>
+            <div class="check">
+              <input type="checkbox" name="3300" id="rating" />3300
+            </div>
+            <div class="check">
+              <input type="checkbox" name="3400" id="rating" />3400
+            </div>
+            <div class="check">
+              <input type="checkbox" name="3500" id="rating" />3500
+            </div>
+          </div>
         </div>
-        <button id="solve">Click to start solving</button>
-        <div class="score">
-            <h4>Your Score: <span class="current">0</span></h4>
-            <!-- <h4>High Score: <span class="high">0</span></h4> -->
+
+        <!-- Tags Section -->
+
+        <div class="tags-div">
+          <h3>Select Tags:</h3>
+          <div class="tags-tab">
+            <div class="check">
+              <input type="checkbox" name="2-sat" id="tags" />2-sat
+            </div>
+            <div class="check">
+              <input type="checkbox" name="binary search" id="tags" />binary
+              search
+            </div>
+            <div class="check">
+              <input type="checkbox" name="bitmasks" id="tags" />bitmasks
+            </div>
+            <div class="check">
+              <input type="checkbox" name="brute force" id="tags" />brute force
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                name="chinese remainder theorem"
+                id="tags"
+              />chinese remainder theorem
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                name="combinatorics"
+                id="tags"
+              />combinatorics
+            </div>
+            <div class="check">
+              <input type="checkbox" name="data structures" id="tags" />data
+              structures
+            </div>
+            <div class="check">
+              <input type="checkbox" name="dfs and similar" id="tags" />dfs and
+              similar
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                name="divide and conquer"
+                id="tags"
+              />divide and conquer
+            </div>
+            <div class="check">
+              <input type="checkbox" name="dp" id="tags" />dp
+            </div>
+            <div class="check">
+              <input type="checkbox" name="dsu" id="tags" />dsu
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                name="expression parsing"
+                id="tags"
+              />expression parsing
+            </div>
+            <div class="check">
+              <input type="checkbox" name="fft" id="tags" />fft
+            </div>
+            <div class="check">
+              <input type="checkbox" name="flows" id="tags" />flows
+            </div>
+            <div class="check">
+              <input type="checkbox" name="games" id="tags" />games
+            </div>
+            <div class="check">
+              <input type="checkbox" name="geometry" id="tags" />geometry
+            </div>
+            <div class="check">
+              <input type="checkbox" name="graph matchings" id="tags" />graph
+              matchings
+            </div>
+            <div class="check">
+              <input type="checkbox" name="graphs" id="tags" />graphs
+            </div>
+            <div class="check">
+              <input type="checkbox" name="greedy" id="tags" />greedy
+            </div>
+            <div class="check">
+              <input type="checkbox" name="hashing" id="tags" />hashing
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                name="implementation"
+                id="tags"
+              />implementation
+            </div>
+            <div class="check">
+              <input type="checkbox" name="interactive" id="tags" />interactive
+            </div>
+            <div class="check">
+              <input type="checkbox" name="math" id="tags" />math
+            </div>
+            <div class="check">
+              <input type="checkbox" name="matrices" id="tags" />matrices
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                name="meet-in-the-middle"
+                id="tags"
+              />meet-in-the-middle
+            </div>
+            <div class="check">
+              <input type="checkbox" name="number theory" id="tags" />number
+              theory
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                name="probabilities"
+                id="tags"
+              />probabilities
+            </div>
+            <div class="check">
+              <input type="checkbox" name="schedules" id="tags" />schedules
+            </div>
+            <div class="check">
+              <input type="checkbox" name="shortest paths" id="tags" />shortest
+              paths
+            </div>
+            <div class="check">
+              <input type="checkbox" name="sortings" id="tags" />sortings
+            </div>
+            <div class="check">
+              <input
+                type="checkbox"
+                name="string suffix structures"
+                id="tags"
+              />string suffix structures
+            </div>
+            <div class="check">
+              <input type="checkbox" name="strings" id="tags" />strings
+            </div>
+            <div class="check">
+              <input type="checkbox" name="ternary search" id="tags" />ternary
+              search
+            </div>
+            <div class="check">
+              <input type="checkbox" name="trees" id="tags" />trees
+            </div>
+            <div class="check">
+              <input type="checkbox" name="two pointers" id="tags" />two
+              pointers
+            </div>
+          </div>
         </div>
+
+        <!-- Timer Section -->
+
+        <div class="timer">
+          <h3>Select Time:</h3>
+          <div class="timer-div">
+            <div class="timer-form">
+              <input type="text" name="hours" id="hour" value="0" />
+              <label for="hour">hours</label>
+            </div>
+            <div class="timer-form">
+              <input type="text" name="minutes" id="minute" value="0" />
+              <label for="minute">minutes</label>
+            </div>
+            <div class="timer-form">
+              <input type="text" name="seconds" id="second" value="0" />
+              <label for="second">seconds</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button id="solve">Click to start solving</button>
+      <div class="score">
+        <h4>Your Score: <span class="current">0</span></h4>
+        <!-- <h4>High Score: <span class="high">0</span></h4> -->
+      </div>
     </div>
 
     <!-- Overlay Section -->
 
-    <div class="overlay">
-    </div>
+    <div class="overlay"></div>
     <div class="modal">
-        <h2>Time Left:</h2>
-        <h3 class="time-left"></h3>
-        <div class="btn-group">
-            <button id="done">Done</button>
-            <button id="giveup">Giveup</button>
-        </div>
+      <h2>Time Left:</h2>
+      <h3 class="time-left"></h3>
+      <div class="btn-group">
+        <button id="done">Done</button>
+        <button id="giveup">Giveup</button>
+      </div>
     </div>
 
     <!-- Footer Section -->
 
     <div class="footer before">
-        <p style="color: rgb(250, 250, 250);">Developed with ❤</p>
-        <div class="contact-links">
-            <!-- <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a> -->
-            <a style="color: rgb(247, 247, 247);"href="#" target="_blank"><i class="fab fa-github"></i></a>
-        </div>
+      <p style="color: rgb(250, 250, 250)">Developed with ❤</p>
+      <div class="contact-links">
+        <!-- <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a> -->
+        <a style="color: rgb(247, 247, 247)" href="#" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
     </div>
 
     <!-- Modals Section -->
-    
+
     <!-- Time's Up -->
     <div class="result timeup">
-        <i class="fas fa-hourglass-end"></i>
-        <p>Time's Up !!</p>
+      <i class="fas fa-hourglass-end"></i>
+      <p>Time's Up !!</p>
     </div>
-    
+
     <!-- Problem Solved -->
 
     <div class="result success">
-        <i class="fas fa-check-circle"></i>
-        <p>Problem Solved Successfully !!</p>
+      <i class="fas fa-check-circle"></i>
+      <p>Problem Solved Successfully !!</p>
     </div>
 
     <!-- Problem Not Solved -->
 
     <div class="result failure">
-        <i class="fas fa-times"></i>
-        <p>Problem Not Solved Successfully !!</p>
+      <i class="fas fa-times"></i>
+      <p>Problem Not Solved Successfully !!</p>
     </div>
 
     <!-- Giveup -->
     <div class="result gaveup">
-        <i class="fas fa-exchange-alt"></i>
-        <p>You Gave up !!</p>
+      <i class="fas fa-exchange-alt"></i>
+      <p>You Gave up !!</p>
     </div>
 
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
